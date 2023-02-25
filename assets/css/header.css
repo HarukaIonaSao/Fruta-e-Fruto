@@ -1,0 +1,24 @@
+.header{
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* qnd a tela for maior que 0, ele aplica esses estilos */
+@media screen and (min-width: 0) {
+    .header {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+/* qnd for menos, ele aplica os estilos */
+@media screen and (min-width: 768px) {
+    .header {
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+}
